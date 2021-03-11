@@ -1,0 +1,5 @@
+
+
+for i in range(201):
+    if (i % 5 == 0 and i % 7 != 0):
+        print('Liczba :', i, 'jest podzielna przez 5 i niepodzielna przez 7.')

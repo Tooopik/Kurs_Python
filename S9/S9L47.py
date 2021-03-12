@@ -1,7 +1,7 @@
 import cmath
 
 
-def pole_prosdtokata(a, b):
+def pole_prostokata(a, b):
     return a * b
 
 
@@ -21,7 +21,7 @@ def pole_kola(r):
     return cmath.pi * r ** 2
 
 
-print('Witaj w kalkulatorze pol powerzchni figur')
+print('Witaj w kalkulatorze pol powierzchni figur')
 while True:
     print('Jaka operacje chcesz wykonac ? : ')
     print('1 - pole prostokata')
@@ -40,11 +40,11 @@ while True:
     elif wybor == '1':
         a = int(input('Podaj a : '))
         b = int(input('Podaj b : '))
-        print('Pole prostokata wynosi :', pole_prosdtokata(a, b))
+        print('Pole prostokata wynosi :', pole_prostokata(a, b))
 
     elif wybor == '2':
         a = int(input('Podaj a : '))
-        print('Pole kwaddratu wynosi :', pole_kwadratu(a))
+        print('Pole kwadratu wynosi :', pole_kwadratu(a))
 
     elif wybor == '3':
         a = int(input('Podaj a : '))
@@ -55,11 +55,11 @@ while True:
         a = int(input('Podaj a : '))
         b = int(input('Podaj b : '))
         h = int(input('Podaj h : '))
-        print('Pole trapoezu wynosi :', pole_trapezu(a, b, h))
+        print('Pole trapezu wynosi :', pole_trapezu(a, b, h))
 
     elif wybor == '5':
         r = int(input('Podaj r : '))
-        print('Pole koła wynosi :', pole_kola(r))
+        print('Pole kola wynosi :', pole_kola(r))
 
     else:
-        print('BLAD, wybiez operacje z listy !')
+        print('BLAD, wybierz operacje z listy !')

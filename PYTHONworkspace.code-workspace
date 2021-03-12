@@ -4,5 +4,26 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"cSpell.words": [
+			"chcesz",
+			"cmath",
+			"figur",
+			"jaka",
+			"kwadratu",
+			"listy",
+			"operacje",
+			"podaj",
+			"pole",
+			"powierzchni",
+			"prostokata",
+			"trapezu",
+			"trojkata",
+			"twoj",
+			"wybor",
+			"wykonac",
+			"wynosi",
+			"zakoncz"
+		]
+	}
 }

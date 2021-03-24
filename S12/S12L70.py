@@ -9,7 +9,7 @@ rozszerzenie to tylko 'teskst' nadawany po to aby inne programy rozpoznawały pl
 
 '''
 
-file = open('test.txt', 'w')  # UCHWYT HANDLE
-file.write('sample')
-
-file.close()
+with open('test3.txt', 'w') as file:  # UCHWYT HANDLE
+    file.write('sample')
+    print(0/0)
+    file.write('sample3')

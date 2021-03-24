@@ -8,8 +8,11 @@ a - Append (dopisywanie)
 rozszerzenie to tylko 'teskst' nadawany po to aby inne programy rozpoznawały plik w odpowiedni dla tych programów sposób
 
 '''
+try:
+    file = open('test2.txt', 'w')  # UCHWYT HANDLE
+    file.write('sample')
+    print(0/0)
+    file.write('sample2')
 
-file = open('test.txt', 'w')  # UCHWYT HANDLE
-file.write('sample')
-
-file.close()
+finally:
+    file.close()
